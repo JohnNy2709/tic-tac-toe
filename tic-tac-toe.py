@@ -35,8 +35,7 @@ def check_if_win():
     #проверяем столбцы:
     
     #Продолжить здесь
-    
-    print(matrix_to_check)
+
     return win
 
 def print_hi_words():
