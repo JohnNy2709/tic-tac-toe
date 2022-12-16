@@ -33,8 +33,13 @@ def check_if_win():
             win = True
             return win
     #проверяем столбцы:
-    
-    #Продолжить здесь
+    for j in range(3):
+        col = []
+        for i in range(3):
+            col.append(matrix_to_check[i][j])
+        if len(set(col)) == 1 and col[0]!= '-':
+            win = True
+            return win
 
     return win
 
